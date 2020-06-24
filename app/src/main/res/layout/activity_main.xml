@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:layout_width="800px"
+    android:layout_height="100px"
+    android:id="@+id/name"
+    android:hint="Name"
+    android:text="Name"
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="50px"
+    android:background="@color/colorAccent"
+
+    />
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20px"
+        android:id="@+id/email"
+        android:hint="email"
+        android:background="@color/colorAccent"
+
+        />
+
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_below="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20px"
+        android:id="@+id/password"
+        android:background="@color/colorAccent"
+        android:hint="password"
+
+        />
+
+    <EditText
+        android:layout_width="800px"
+        android:layout_height="100px"
+        android:layout_below="@+id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20px"
+        android:id="@+id/phone"
+        android:hint="phone"
+        android:background="@color/colorAccent"
+
+        />
+    <Button
+        android:layout_width="500px"
+        android:layout_height="80px"
+        android:layout_marginTop="50px"
+        android:layout_below="@+id/register"
+        android:layout_centerInParent="true"
+        android:text="login"
+        android:id="@+id/login"
+        android:background="@color/colorAccent"
+
+        />
+    <Button
+        android:layout_width="500px"
+        android:layout_height="80px"
+        android:layout_below="@+id/phone"
+        android:layout_centerInParent="true"
+        android:text="REgister"
+        android:id="@+id/register"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="50px"
+
+        />
+
+</RelativeLayout>
